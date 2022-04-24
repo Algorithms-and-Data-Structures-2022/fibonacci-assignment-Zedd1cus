@@ -22,7 +22,8 @@ namespace assignment {
     Matrix2x2 res = IdentityMatrix;  // единичная матрица
 
     while (power != 0) {
-
+      res = matrix_multiply(res, matrix);
+      power--;
       // Напишите здесь свой код ...
     }
 
